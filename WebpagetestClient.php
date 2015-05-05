@@ -85,7 +85,7 @@ class WebpagetestClient {
         // Turn all these on for starters
         $defaults = array_fill_keys(array("runs", "fvonly", "sensitive", "private"), 1);
         $defaults['f'] = 'xml';
-        $defaults['notify'] = 'webpagetest@etsy.com';
+        $defaults['notify'] = 'dale.neufeld@shopify.com';
         return $defaults;
     }
 
